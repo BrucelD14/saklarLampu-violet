@@ -1,13 +1,13 @@
 // SAKLAR RUANG TAMU
-let toggle_rt1 = document.getElementById('default-toggle-rt1');
-let toggle_rt2 = document.getElementById('default-toggle-rt2');
-let toggle_rt3 = document.getElementById('default-toggle-rt3');
-let toggle_rt4 = document.getElementById('default-toggle-rt4');
-let toggle_rt = document.getElementById('default-toggle-rt');
-let lampu_rt1 = document.getElementById('lampu-rt1');
-let lampu_rt2 = document.getElementById('lampu-rt2');
-let lampu_rt3 = document.getElementById('lampu-rt3');
-let lampu_rt4 = document.getElementById('lampu-rt4');
+const toggle_rt1 = document.getElementById('default-toggle-rt1');
+const toggle_rt2 = document.getElementById('default-toggle-rt2');
+const toggle_rt3 = document.getElementById('default-toggle-rt3');
+const toggle_rt4 = document.getElementById('default-toggle-rt4');
+const toggle_rt = document.getElementById('default-toggle-rt');
+const lampu_rt1 = document.getElementById('lampu-rt1');
+const lampu_rt2 = document.getElementById('lampu-rt2');
+const lampu_rt3 = document.getElementById('lampu-rt3');
+const lampu_rt4 = document.getElementById('lampu-rt4');
 
 // Saklar Kecil Ruang Tamu
 function saklarKecilTamu() {
@@ -62,13 +62,13 @@ function saklarBesarTamu() {
 }
 
 // SAKLAR RUANG KELUARGA
-let toggle_rk1 = document.getElementById('default-toggle-rk1');
-let toggle_rk2 = document.getElementById('default-toggle-rk2');
-let toggle_rk3 = document.getElementById('default-toggle-rk3');
-let toggle_rk = document.getElementById('default-toggle-rk');
-let lampu_rk1 = document.getElementById('lampu-rk1');
-let lampu_rk2 = document.getElementById('lampu-rk2');
-let lampu_rk3 = document.getElementById('lampu-rk3');
+const toggle_rk1 = document.getElementById('default-toggle-rk1');
+const toggle_rk2 = document.getElementById('default-toggle-rk2');
+const toggle_rk3 = document.getElementById('default-toggle-rk3');
+const toggle_rk = document.getElementById('default-toggle-rk');
+const lampu_rk1 = document.getElementById('lampu-rk1');
+const lampu_rk2 = document.getElementById('lampu-rk2');
+const lampu_rk3 = document.getElementById('lampu-rk3');
 
 function saklarKecilKeluarga() {
 
@@ -113,8 +113,8 @@ function saklarBesarKeluarga() {
 }
 
 // SAKLAR RUANG MAKAN
-let toggle_rm1 = document.getElementById('default-toggle-rm1');
-let lampu_rm1 = document.getElementById('lampu-rm1');
+const toggle_rm1 = document.getElementById('default-toggle-rm1');
+const lampu_rm1 = document.getElementById('lampu-rm1');
 
 function saklarMakan() {
 
@@ -130,11 +130,11 @@ function saklarMakan() {
 }
 
 // SAKLAR RUANG TIDUR
-let toggle_rb1 = document.getElementById('default-toggle-rb1');
-let toggle_rb2 = document.getElementById('default-toggle-rb2');
-let toggle_rb = document.getElementById('default-toggle-rb');
-let lampu_rb1 = document.getElementById('lampu-rb1');
-let lampu_rb2 = document.getElementById('lampu-rb2');
+const toggle_rb1 = document.getElementById('default-toggle-rb1');
+const toggle_rb2 = document.getElementById('default-toggle-rb2');
+const toggle_rb = document.getElementById('default-toggle-rb');
+const lampu_rb1 = document.getElementById('lampu-rb1');
+const lampu_rb2 = document.getElementById('lampu-rb2');
 
 
 function saklarKecilTidur() {
